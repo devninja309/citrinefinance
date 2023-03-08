@@ -8,9 +8,9 @@ $white-color: #ffffff;
 $grey-color: #777777;
 $black-color: #0d1820;
 $gradient-green: linear-gradient(90deg, rgba(16,195,23,1) 23%, rgba(21,208,154,1) 64%);
-$main-color: #00C195;
+$main-color: #00a084;
 $paragraph-color: #767676;
-$main-gradient-color: linear-gradient(270deg, #00C194 0%, #00A47E 100%);
+$main-gradient-color: linear-gradient(270deg, #29abe2  0%, #2e3191 100%);
 
 /*-- Default CSS --*/
 body {
@@ -7041,7 +7041,7 @@ button {
 .main-default-btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: $main-color;
+    background: linear-gradient(270deg, #29abe2  0%, #2e3191 100%);
     color: $white-color;
     border: none;
     font-size: 15px;
@@ -8657,7 +8657,7 @@ button {
             display: inline-block;
             padding: 15px 30px;
             border-radius: 5px;
-            background: $main-color;
+            background: linear-gradient(270deg, #29abe2  0%, #2e3191 100%);;
             color: $white-color;
             transition: $transition;
         }
@@ -9414,8 +9414,10 @@ button {
     }
 }
 .let-contact-form {
-    max-width: 640px;
-    margin-left: auto;
+    max-width: 1320px;
+        width: 100%;
+    margin: auto;
+    padding: 50px 0;
 
     .sub-title {
         color: $main-color;
